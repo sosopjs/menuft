@@ -287,8 +287,10 @@ Fatality.GLOBAL_ENVIRONMENT = {};
 Fatality.Windows = {};
 Fatality.FontSemiBold = Font.new('rbxasset://fonts/families/GothamSSm.json',Enum.FontWeight.SemiBold,Enum.FontStyle.Normal);
 Fatality.Flags = {};
-Fatality.Colors = { 
- Background = Color3.fromRGB(18, 18, 20),
+Fatality.Colors = {
+	Black = Color3.fromRGB(16, 16, 16),
+	Main = Color3.fromRGB(255, 106, 133),
+Background = Color3.fromRGB(18, 18, 20),
  Surface = Color3.fromRGB(28, 30, 34),
  Muted = Color3.fromRGB(120, 125, 135),
  Accent = Color3.fromRGB(255, 99, 132),
@@ -298,7 +300,7 @@ Fatality.Colors = {
  Danger = Color3.fromRGB(235, 87, 87), 
  TextMain = Color3.fromRGB(235, 238, 240),
  TextDim = Color3.fromRGB(180, 185, 190)
- }
+};
 Fatality.DragBlacklist = {};
 Fatality.Version = '1.6';
 Fatality.Lucide = {
